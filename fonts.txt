@@ -1,0 +1,31 @@
+DEFAULT FONT-SIZES:
+
+The default font-size for most browsers is 16px or 1em.
+h1 is 32px (2em)
+h2 is 24px
+h3 is 20.8px
+h4 is 16px (1em)
+h5 is 12.8px
+h6 is 11.2px
+p is 16px (1em)
+
+
+
+FONT FAMILIES
+
+http://www.cssfontstack.com/
+Web safe fonts are fonts that are pre-installed by many operating systems.
+If you want to use fonts other than ones pre-installed, as of CSS3, 
+you can use Web Fonts (downloading the fonts): http://www.cssfontstack.com/Web-Fonts.
+
+
+font-families with fallbacks:
+
+example:
+font-family: "Times New Roman", Times, serif;
+The browser will try the first one, if that one isn't available the second, 
+and so forth. In the end it uses the family serif, so the browser choses any serif font.
+
+examples:
+font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif 
+font-family: "Lucida Console", Courier, monospace;
