@@ -1,7 +1,7 @@
 DEFAULT FONT-SIZES:
 
 The default font-size for most browsers is 16px or 1em.
-h1 is 32px (2em)
+h1 is 32px (2em) --
 h2 is 24px
 h3 is 20.8px
 h4 is 16px (1em)
